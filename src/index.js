@@ -7,7 +7,7 @@ const env = require('./config/env');
         const ngrok_options = { addr: env.NGROK_PORT, };
 
         const url = await ngrok.connect(ngrok_options); // Initiates Ngrok connection
-        const online_notes = await t.onlineNotes_post(url);
+        const online_notes = await t.onlineNotes_post(url, 'OnlineNotes-Ngrok');
 
         t.writeUrl(url); // Writes the generated txt file
 
