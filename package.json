@@ -1,14 +1,14 @@
 {
   "name": "onlinenotes-ngrok",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node script to start Ngrok connections and to automatically post a Private Note on http://onlinenotes.ml",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["Online Notes, SPLIT VICE, Node, NGROK"],
+  "author": "SPLIT VICE",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1",
     "dotenv": "^10.0.0",
